@@ -10,7 +10,7 @@ public class Application {
 	public static void main(String[] args) {
 		FileInputStream in;
 		try {
-			in = new FileInputStream("D:\\Shipping\\Alte ENC zum Üben\\DE521650.000");
+			in = new FileInputStream("D:\\BigData\\S57\\S57_C1210011\\C1210011.000");
 			S57map map = new S57map(true);
 			S57dec.decodeChart(in, map);
 
